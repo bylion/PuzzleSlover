@@ -1,0 +1,3 @@
+after mvn clean install
+cd to target/classes
+java com.bai.App
