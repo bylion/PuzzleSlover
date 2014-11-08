@@ -129,6 +129,7 @@ public class PuzzleSolver {
     	Position p = new Position();
     	p.x = 1;
     	p.y = 2;
+    	LOGGER.info("log info level");
     	System.out.println("Position");
         char[][] puzzle = new char[][] {   
             {'C','A','T'}, 
