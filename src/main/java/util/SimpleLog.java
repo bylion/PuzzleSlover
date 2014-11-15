@@ -1,4 +1,6 @@
-package com.bai;
+package util;
+
+import java.util.Date;
 
 /**
  * Hello world!
@@ -6,7 +8,7 @@ package com.bai;
  */
 public class SimpleLog
 {
-    public static writelog(String log)
+    public static void writelog(String log)
     {
         System.out.println(new Date()+log);
     }

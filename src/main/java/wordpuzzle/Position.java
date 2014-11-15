@@ -1,4 +1,4 @@
-package com.bai;
+package wordpuzzle;
 
 
 public class Position{

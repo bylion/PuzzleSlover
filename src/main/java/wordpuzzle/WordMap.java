@@ -1,4 +1,4 @@
-package com.wordpuzzle;
+package wordpuzzle;
 
 public class WordMap{
     

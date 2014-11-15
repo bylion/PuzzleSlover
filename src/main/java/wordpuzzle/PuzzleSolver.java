@@ -1,4 +1,4 @@
-package com.bai;
+package wordpuzzle;
 
 import java.util.*;
 import java.util.logging.Logger;
