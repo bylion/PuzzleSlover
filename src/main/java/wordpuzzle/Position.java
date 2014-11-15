@@ -1,5 +1,5 @@
-package wordpuzzle;
 
+package wordpuzzle;
 
 public class Position{
     public  int x;

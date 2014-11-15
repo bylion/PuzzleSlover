@@ -1,7 +1,6 @@
-package wordpuzzle;
 
+package wordpuzzle;
 import java.util.*;
-import java.util.logging.Logger;
 
 
 /**
@@ -11,7 +10,6 @@ import java.util.logging.Logger;
 
 public class PuzzleSolver {
 
-	private final static Logger LOGGER = Logger.getLogger(PuzzleSolver.class.getName()); 
     public static String[] DICTIONARY = {"OX","CAT","TOY","AT","DOG","CATAPULT","T"};
     
     public static List<String> context = new ArrayList<String>();
@@ -129,7 +127,7 @@ public class PuzzleSolver {
     	Position p = new Position();
     	p.x = 1;
     	p.y = 2;
-    	LOGGER.info("log info level");
+
     	System.out.println("Position");
         char[][] puzzle = new char[][] {   
             {'C','A','T'}, 

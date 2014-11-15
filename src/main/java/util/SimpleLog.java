@@ -12,4 +12,8 @@ public class SimpleLog
     {
         System.out.println(new Date()+log);
     }
+    
+    public static void main(String[] src){
+        writelog("Test SimpleLog");
+    }
 }
